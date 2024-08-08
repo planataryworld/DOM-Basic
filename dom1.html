@@ -1,0 +1,71 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head1">0</h1>
+    <button onclick="likeFunction()">Like</button>
+    <button onclick="unlikeFunction()">Unlike</button>
+</body>
+</html>
+
+<script>
+    let likes=0;
+    function likeFunction(){
+        likes++;
+        document.getElementById("head1").innerText=likes;
+    }
+
+    function unlikeFunction(){
+        likes--;
+        document.getElementById("head1").innerText=likes;
+    }
+</script>  -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="first name">Hello</h1>
+    <div id="last name">Flm </div>
+    <p id="full name">Vigita</p>
+     <hr />
+    <button onclick="setFirstName()">first name</button>
+    <button onclick="setLastName()">Last name</button>
+    <button onclick="setFullName()">first name last name</button>
+    <button onclick="setResult()">Result default</button>
+
+</body>
+</html>
+
+<script>
+
+    function setFirstName(){
+        document.getElementById("first name").innerText="Manoj"
+    } ;
+
+    function setLastName(){
+        document.getElementById("last name").innerText="chandra"
+    };
+  
+    function setFullName(){
+        document.getElementById("full name").innerText="ManojChandra"
+    };
+
+    function setResult(){
+        document.getElementById("first name").innerText="Hello"
+        document.getElementById("last name").innerText="flm"
+        document.getElementById("full name").innerText="Vigita"
+    };
+    
+
+</script>
